@@ -21,5 +21,5 @@ while attempt < list_length:
     for files_print in lists:
         os.startfile(files_print, 'print')
         sleep(10)
-        print(f'Printed{files_print}.')
+        print(f'Printed ---> {files_print} ')
         attempt += 1
